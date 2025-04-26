@@ -1,0 +1,73 @@
+Ubiquitous Language and System Requirements
+
+Ubiquitous Language:
+
+
+
+
+
+Client: A person who owns one or more pets and visits the clinic.
+
+
+
+Pet: An animal owned by a client, receiving veterinary services.
+
+
+
+Appointment: A scheduled or emergency visit of a pet to a vet.
+
+
+
+MedicalRecord: A record of a pet's visit, including symptoms, medications, operations, and treatment status.
+
+
+
+Symptom: A description of the pet's health condition during a visit.
+
+
+
+Medication: A prescribed drug with dosage.
+
+
+
+Operation: A surgical procedure performed on a pet.
+
+
+
+TreatmentStatus: The current state of the pet's treatment (e.g., "in progress", "completed").
+
+
+
+Vet: A doctor working at the clinic, conducting appointments.
+
+
+
+AppointmentType: The type of appointment (planned or emergency).
+
+System Requirements:
+
+
+
+
+
+Clients can book planned appointments or visit urgently.
+
+
+
+Vets conduct appointments, record symptoms, prescribe medications or operations, and update treatment status.
+
+
+
+Each pet has a medical history, accessible for review.
+
+
+
+The system checks vet availability before scheduling an appointment.
+
+
+
+Clients may own multiple pets, each with their own medical history.
+
+
+
+The system ensures data consistency for medical records and appointments.
