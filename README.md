@@ -28,3 +28,48 @@
 6. Обеспечивается консистентность данных.
 
 ## Структура проекта
+vetclinic-domain/
+├── pom.xml                    # Конфигурация Maven
+├── UbiquitousLanguage.txt     # Общий язык и требования
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/vetclinic/domain/
+│   │   │       ├── model/     # Доменные объекты
+│   │   │       │   ├── Appointment.java
+│   │   │       │   ├── AppointmentType.java
+│   │   │       │   ├── Client.java
+│   │   │       │   ├── ContactInfo.java
+│   │   │       │   ├── MedicalRecord.java
+│   │   │       │   ├── Medication.java
+│   │   │       │   ├── Operation.java
+│   │   │       │   ├── Pet.java
+│   │   │       │   ├── Symptom.java
+│   │   │       │   ├── TreatmentStatus.java
+│   │   │       │   ├── Vet.java
+│   │   │       ├── service/   # Доменные сервисы
+│   │   │           ├── AppointmentScheduler.java
+│   │   │           ├── MedicalRecordService.java
+│   ├── test/
+│       ├── java/
+│           ├── com/vetclinic/domain/
+│               ├── TestVetClinic.java  # Тестовый класс
+├── target/                    # Скомпилированные файлы (после сборки)
+├── README.md                  # Этот файл
+
+text
+
+Копировать
+
+## Технологии
+- **Java**: 17 (Amazon Corretto)
+- **Maven**: mvnd 1.0.2
+- **Lombok**: 1.18.30 (для упрощения кода)
+- **IDE**: IntelliJ IDEA (рекомендуется)
+
+## Установка и настройка
+
+### Требования
+- **Java 17** (JDK, например, Amazon Corretto)
+- **Maven Daemon (mvnd)** или классический Maven
+- **IntelliJ IDEA** (опционально, для удобной работы)
